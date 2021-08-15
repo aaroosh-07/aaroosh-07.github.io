@@ -20,11 +20,25 @@
 	color:hsl(239deg 75% 97%);
 	font-weight: 900;	
 }
+.header-links{
+	height:100%;
+	
+}
+.header-links img{
+	padding: 1.5rem 0;
+	height: 90px;
+}
+.header-links a{
+	display: inline-block;
+	transition: all .3s ease-out;
+}
+.header-links a:hover{
+	transform: translateY(-0.5rem);
+}
 .container{
 	margin: 0 auto;
 	max-width:50em;
 	line-height: 1.5;
-	
 }
 a{
 	text-decoration: none;
