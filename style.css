@@ -8,17 +8,18 @@
 	text-rendering: optimizeLegibility;
 }
 .header{
-	padding: 5%;
+	padding:1% 5%;
 	min-height: 600px;
 	color:#fff;
 	font-size: 16px;
 	background: linear-gradient(90deg,#363795,#005c97);
 }
 .greeting{
-	font-size: 46px;
-	line-height: 1.2;
+	font-size: 4rem;
+	line-height: 1.5;
 	color:hsl(239deg 75% 97%);
-	font-weight: 900;	
+	font-weight: 900;
+	margin-bottom: 2rem;	
 }
 .header-links{
 	height:100%;
@@ -84,4 +85,8 @@ h2{
 }
 .project a:hover{
 	background-color: rgba(220, 220, 220, 0.719);
+}
+.about-me{
+	line-height: 1.5;
+	font-size: 1.5rem;
 }
