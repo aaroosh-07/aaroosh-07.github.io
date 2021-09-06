@@ -36,10 +36,29 @@
 .header-links a:hover{
 	transform: translateY(-0.5rem);
 }
-.container{
-	margin: 0 auto;
-	max-width:50em;
-	line-height: 1.5;
+.project-div{
+	margin: 5rem auto;
+	max-width: 1200px;
+	padding: 0 50px;
+}
+.card {
+	padding:10px 20px;
+    background-color: red;
+    height: 600px;
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 0px 0px 35px 0px rgb(0 0 0 / 18%);
+}
+.tag {
+	position:absolute;
+	bottom: 20px;
+	left:2s0px;
+	padding: 10px 20px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: white;
+	background-color: bisque;
 }
 a{
 	text-decoration: none;
@@ -48,26 +67,6 @@ a{
 h2{
 	text-align: center;
 }
-.content{
-	margin: 5rem 0;
-}
-.block-heading{
-	position: relative;
-	letter-spacing: 0.5rem;
-	padding-bottom: 2rem;
-	font-weight: bold;
-	background: transparent;
-}
-.block-heading::before{
-	position:absolute;
-	top:25%;
-	left:35%;
-	content:"";
-	width:30%;
-	height: 8px;
-	background-color: #0892D0;
-	z-index:-1;
-}
 .lang-tags{
 	background-color: #0892D0;
 	display: inline-block;
@@ -75,18 +74,4 @@ h2{
 	font-family: monospace;
 	font-size:0.9rem;
 	padding:0 1px;
-}
-.project .row{
-	margin-bottom: 1rem;
-	margin-top:1rem;
-}
-.project a{
-	background-color:rgb(220,220,220);
-}
-.project a:hover{
-	background-color: rgba(220, 220, 220, 0.719);
-}
-.about-me{
-	line-height: 1.5;
-	font-size: 1.5rem;
 }
