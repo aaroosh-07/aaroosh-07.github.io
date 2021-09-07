@@ -13,6 +13,7 @@
 	color:#fff;
 	font-size: 16px;
 	background: linear-gradient(90deg,#363795,#005c97);
+	
 }
 .greeting{
 	font-size: 4rem;
@@ -56,6 +57,12 @@
 	letter-spacing: 5px;
 	margin: 2rem;
 }
+.card-font{
+	font-size: 1.5rem;
+	color:whitesmoke;
+	line-height: 1.5;
+	opacity: 0.8;
+}
 .django-card {
 	background: #F7971E;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
@@ -68,19 +75,36 @@
 	align-items: center;
 	justify-content: center;
 }
+.django-card .genre-tag{
+	background-color: #eecb00;
+	color:#a89201;
+}
 .building-card img{
 	height: 10em;
 }
 .tag {
 	position:absolute;
 	bottom: 20px;
-	left:2s0px;
+	left:20px;
+	
+}
+.genre-tag{
 	padding: 10px 20px;
 	border-radius: 50px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: white;
 	background-color: bisque;
+}
+.tag img{
+	height: 50px;
+	display: inline-block;
+}
+.tag img:hover{
+	cursor: pointer;
+}
+.tag img, .genre-tag{
+	margin: 5px 5px;
 }
 a{
 	text-decoration: none;
@@ -90,10 +114,19 @@ h2{
 	text-align: center;
 }
 .lang-tags{
-	background-color: #0892D0;
 	display: inline-block;
 	margin:0px 5px;
 	font-family: monospace;
-	font-size:0.9rem;
+	text-transform: capitalize;
+	font-size:1rem;
 	padding:0 1px;
+}
+@media screen and (max-width: 768px){
+	.project-div{
+		padding: 0 20px;
+	}
+	.header{
+		padding: 1%;
+		
+	}
 }
