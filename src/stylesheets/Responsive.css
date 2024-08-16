@@ -1,0 +1,236 @@
+/* queries going up in size */
+@media only screen and (min-width: 700px) {
+  .App {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .projects-container {
+    margin: auto;
+    width: 60%;
+  }
+
+  .blogs-container {
+    margin: auto;
+    width: 60%;
+  }
+
+  .skill-grid {
+    margin: auto;
+    width: 80%;
+  }
+
+  .social-grid {
+    margin: auto;
+    width: 70%;
+  }
+
+  .footer {
+    margin-top: 185px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .App {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .projects-container {
+    margin: auto;
+    width: 65%;
+  }
+
+  .blogs-container {
+    margin: auto;
+    width: 65%;
+  }
+
+  .skill-grid {
+    margin: auto;
+    width: 85%;
+  }
+
+  .social-grid {
+    margin: auto;
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  body {
+    background-color: var(--background-color);
+    background-image: var(--background-image);
+    background-attachment: fixed;
+  }
+
+  .App {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: var(--background-color);
+    transition: var(--theme-transition);
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .projects-container {
+    margin: auto;
+    width: 70%;
+  }
+
+  .blogs-container {
+    margin: auto;
+    width: 70%;
+  }
+
+  .skill-grid {
+    margin: auto;
+    width: 90%;
+  }
+
+  .social-grid {
+    margin: auto;
+    width: 85%;
+  }
+
+  .see-more-button:hover {
+    color: var(--white);
+    background-color: var(--hightlighted-menu-color);
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+
+  .icons:hover {
+    stroke: var(--hightlighted-menu-color);
+    transition: stroke 0.2s ease-in-out;
+  }
+
+  .icon-link:hover {
+    fill: var(--hightlighted-menu-color);
+    transition: stroke 0.2s ease-in-out;
+  }
+
+  .arrow-icon:hover {
+    stroke: var(--hightlighted-menu-color);
+    transition: 0.2s ease-in-out;
+  }
+
+  .email-link:hover {
+    font-weight: bold;
+  }
+
+  .at-symbol-link:hover {
+    font-weight: bold;
+  }
+
+  .pdf-link:hover {
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .App {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .my-name {
+    font-size: 1.5rem;
+  }
+
+  .bio-menu {
+    font-size: 1.2rem;
+  }
+
+  .selected-bio {
+    font-size: 1.2rem;
+  }
+
+  .text {
+    font-size: 1.2rem;
+  }
+
+  .projects-container {
+    margin: auto;
+    width: 70%;
+  }
+
+  .blogs-container {
+    margin: auto;
+    width: 70%;
+  }
+
+  .skill-grid {
+    margin: auto;
+    width: 90%;
+  }
+
+  .skills {
+    height: 100px;
+  }
+
+  .skills-description {
+    font-size: 0.8rem;
+  }
+
+  .video {
+    width: 500px;
+    height: 300px;
+  }
+
+  .image {
+    width: 500px;
+  }
+
+  .image-text {
+    width: 500px;
+    font-size: 1rem;
+  }
+
+  .gif {
+    width: 500px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .project-title {
+    font-size: 1.2rem;
+  }
+
+  .project-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .blog-title {
+    font-size: 1.2rem;
+  }
+
+  .email-link {
+    font-size: 1.2rem;
+  }
+
+  .email-icon {
+    width: 30px;
+  }
+
+  .at-symbol-link {
+    font-size: 1.2rem;
+  }
+
+  .pdf-link {
+    font-size: 1.2rem;
+  }
+
+  .resume-icon {
+    width: 30px;
+  }
+
+  .footer {
+    font-size: 1.2rem;
+  }
+
+  .project-description {
+    font-size: 1.2rem;
+  }
+}

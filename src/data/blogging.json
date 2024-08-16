@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "text": "Developed using Django framework and jinja template engine"
+    },
+    {
+        "id": 2,
+        "text": "Uses SQL Database to store blogs and comments"
+    },
+    {
+        "id": 3,
+        "text": "Uses Pagination to display only some blogs at a time"
+    },
+    {
+        "id": 4,
+        "text": "Bootstrap used to design frontend of web app"
+    },
+    {
+        "id": 5,
+        "text": "Implemented using MVT approach in Django"
+    }
+]
